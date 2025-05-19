@@ -315,11 +315,12 @@ h2 {
     }
 
 .resource-card {
-    background-color: var(--darker-bg);
+    background-color: #3a3a3a;
     padding: 25px;
     border-radius: 10px;
     margin-bottom: 20px;
     transition: transform 0.3s ease;
+    box-shadow: 0 5px 15px var(--shadow-color);
 }
 
     .resource-card:hover {
