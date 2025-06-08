@@ -109,5 +109,6 @@
    ---
 
    ##Запуск проекта
-
+```bash
    start NewCyberSite/index.html
+```
