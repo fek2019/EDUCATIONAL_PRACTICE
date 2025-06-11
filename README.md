@@ -33,6 +33,27 @@
    pip install python-telegram-bot
    python bot.py
    ```
+5. **Не запускается**
+   - Необходимо перейти в папку, где лежат файлы самого бота
+   ```bash
+   cd SessionBot
+   ```
+   - Обновить библиотеку python-telegram-bot до последней версии
+   ```bash
+   pip install --upgrade python-telegram-bot
+   ```
+   - После обновления необходимо обедиться, что установлена версия 20.0 и выше
+   ```bash
+   pip show python-telegram-bot
+   ```
+   - После обновления библиотеки можно вновь запускать бота командой, которая указана в пункте 4
+   ```bash
+   python bot.py
+   ```
+6. **Username телеграмм бота**
+   ```bash
+   @PolytechSession_bot
+   ```
 
 ## Ответственный по проектной (учебной) практике
 
